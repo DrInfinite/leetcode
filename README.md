@@ -1,4 +1,4 @@
-# Leetcode Solutions
+# LeetCode Solutions in C++
 
 A repository containing my leetcode solutions when attempting daily problems
 using C++ (because I like the challenge)
