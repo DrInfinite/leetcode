@@ -104,6 +104,7 @@ leetcode/
    ```
 
 3. Run the project:
+
    ```bash
    cargo run
    ```
@@ -151,8 +152,10 @@ To add a new solution, follow these steps:
    // Time Complexity: O(...)
    // Space Complexity: O(...)
 
-   pub fn solution_function(input: Type) -> ReturnType {
+   impl Solution {
+    pub fn solution_function(input: Type) -> ReturnType {
        // Implementation
+    }
    }
    ```
 
