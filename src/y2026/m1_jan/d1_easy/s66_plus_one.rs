@@ -1,3 +1,9 @@
+// LeetCode Problem 66. Plus One
+// Difficulty: Easy
+//
+// Time Complexity: O(n) - where n is the length of the array
+// Space Complexity: O(1) - only using a constant amount of extra space
+
 #![allow(dead_code)]
 struct Solution;
 

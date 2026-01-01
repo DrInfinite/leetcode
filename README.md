@@ -146,7 +146,7 @@ To add a new solution, follow these steps:
 3. **Write the solution**: Structure your solution with the following format:
 
    ```rust
-   // LeetCode Problem {NUMBER}: {PROBLEM_NAME}
+   // LeetCode Problem {NUMBER}. {PROBLEM_NAME}
    // Difficulty: {EASY|MEDIUM|HARD}
    //
    // Time Complexity: O(...)
