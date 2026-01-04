@@ -1,5 +1,5 @@
-// LeetCode Problem 961. N-Repeated Element in Size 2N Array
-// Difficulty: Easy
+// LeetCode Problem 1390. Four Divisors
+// Difficulty: Medium
 //
 // Time Complexity: O(n∗Sqrt(m)) - where n is the length of the array and m is a possible list of
 // prime numbers
