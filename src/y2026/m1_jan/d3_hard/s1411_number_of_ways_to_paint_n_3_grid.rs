@@ -1,8 +1,11 @@
-// LeetCode Problem 961. N-Repeated Element in Size 2N Array
-// Difficulty: Easy
-//
-// Time Complexity: O(n) - where n is the length of the array
-// Space Complexity: O(1) - constant space where n is the size of the constant
+// LeetCode Problem 1411. Number of Ways to Paint N × 3 Grid
+// Difficulty: Hard
+
+// Time Complexity: O(n) - where n is the number of iterations in the loop.
+// The function performs a constant amount of work for each iteration from 1 to n.
+
+// Space Complexity: O(1) - constant extra space.
+// Only a fixed number of variables are used regardless of the input size n.
 
 #![allow(dead_code)]
 struct Solution;
