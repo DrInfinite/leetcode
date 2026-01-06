@@ -1,3 +1,4 @@
+mod lib;
 mod y2026;
 
 fn main() {
