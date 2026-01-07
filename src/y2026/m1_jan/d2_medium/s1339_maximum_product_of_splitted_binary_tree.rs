@@ -63,7 +63,7 @@ mod tests {
     }
 
     #[test]
-    fn test_example_1() {
+    fn test_max_product_1() {
         // Input: root = [1,2,3,4,5,6]
         //
         //       1
@@ -91,7 +91,7 @@ mod tests {
     }
 
     #[test]
-    fn test_example_2() {
+    fn test_max_product_2() {
         // Input: root = [1,null,2,3,4,null,null,5,6]
         //
         //       1
@@ -110,10 +110,10 @@ mod tests {
         let n6 = node(6);
 
         n1.borrow_mut().right = Some(n2.clone());
-        n2.borrow_mut().left = Some(n3.clone());
-        n2.borrow_mut().right = Some(n4);
-        n3.borrow_mut().left = Some(n5);
-        n3.borrow_mut().right = Some(n6);
+        n2.borrow_mut().left = Some(n3);
+        n2.borrow_mut().right = Some(n4.clone());
+        n4.borrow_mut().left = Some(n5);
+        n4.borrow_mut().right = Some(n6);
 
         let root = Some(n1);
 
