@@ -1,3 +1,4 @@
 mod s1161_maximum_level_sum_of_a_binary_tree;
+mod s1339_maximum_product_of_splitted_binary_tree;
 mod s1390_four_divisors;
 mod s1975_maximum_matrix_sum;
