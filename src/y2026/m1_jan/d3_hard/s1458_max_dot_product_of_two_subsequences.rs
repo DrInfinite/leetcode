@@ -1,9 +1,9 @@
 // LeetCode Problem 1458. Max Dot Product of Two Subsequences
 // Difficulty: Hard
 
-// Time Complexity: O(n) -
+// Time Complexity: O(n^3), where n = max(nums1.len(), nums2.len())
 
-// Space Complexity: O(1) -
+// Space Complexity: O(n^2), due to the DP table of size n × n
 
 #![allow(dead_code)]
 
