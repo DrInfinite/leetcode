@@ -1,3 +1,4 @@
+mod leetcode_quest;
 mod lib;
 mod y2026;
 
