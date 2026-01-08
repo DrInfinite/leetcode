@@ -1,1 +1,2 @@
 mod s1411_number_of_ways_to_paint_n_3_grid;
+mod s1458_max_dot_product_of_two_subsequences;
