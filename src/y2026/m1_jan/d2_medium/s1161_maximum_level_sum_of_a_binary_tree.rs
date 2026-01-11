@@ -52,6 +52,8 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
+    use crate::lib::build_tree::build_tree;
+
     use super::*;
     use std::cell::RefCell;
     use std::rc::Rc;
@@ -70,19 +72,17 @@ mod tests {
         //     / \
         //    7  -8
 
-        let root = node(1);
-        let left = node(7);
-        let right = node(0);
-        let left_left = node(7);
-        let left_right = node(-8);
+        let root = build_tree(vec![
+            Some(1),
+            Some(7),
+            Some(0),
+            Some(7),
+            Some(-8),
+            None,
+            None,
+        ]);
 
-        root.borrow_mut().left = Some(left.clone());
-        root.borrow_mut().right = Some(right);
-
-        left.borrow_mut().left = Some(left_left);
-        left.borrow_mut().right = Some(left_right);
-
-        let result = Solution::max_level_sum(Some(root));
+        let result = Solution::max_level_sum(root);
         assert_eq!(result, 2);
     }
 
@@ -98,18 +98,19 @@ mod tests {
         //         \
         //        -32127
 
-        let root = node(989);
-        let right = node(10250);
-        let right_left = node(98693);
-        let right_right = node(-89388);
-        let deep_right = node(-32127);
+        let root = build_tree(vec![
+            Some(989),
+            None,
+            Some(10250),
+            Some(98693),
+            Some(-89388),
+            None,
+            None,
+            None,
+            Some(-32127),
+        ]);
 
-        root.borrow_mut().right = Some(right.clone());
-        right.borrow_mut().left = Some(right_left.clone());
-        right.borrow_mut().right = Some(right_right);
-        right_left.borrow_mut().right = Some(deep_right);
-
-        let result = Solution::max_level_sum(Some(root));
+        let result = Solution::max_level_sum(root);
         assert_eq!(result, 2);
     }
 }

@@ -54,6 +54,8 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
+    use crate::lib::build_tree::build_tree;
+
     use super::*;
     use std::cell::RefCell;
     use std::rc::Rc;
@@ -72,20 +74,7 @@ mod tests {
         //    / \  /
         //   4  5 6
 
-        let n1 = node(1);
-        let n2 = node(2);
-        let n3 = node(3);
-        let n4 = node(4);
-        let n5 = node(5);
-        let n6 = node(6);
-
-        n1.borrow_mut().left = Some(n2.clone());
-        n1.borrow_mut().right = Some(n3.clone());
-        n2.borrow_mut().left = Some(n4);
-        n2.borrow_mut().right = Some(n5);
-        n3.borrow_mut().left = Some(n6);
-
-        let root = Some(n1);
+        let root = build_tree(vec![Some(1), Some(2), Some(3), Some(4), Some(5), Some(6)]);
 
         assert_eq!(Solution::max_product(root), 110);
     }
@@ -102,20 +91,17 @@ mod tests {
         //      / \
         //     5   6
 
-        let n1 = node(1);
-        let n2 = node(2);
-        let n3 = node(3);
-        let n4 = node(4);
-        let n5 = node(5);
-        let n6 = node(6);
-
-        n1.borrow_mut().right = Some(n2.clone());
-        n2.borrow_mut().left = Some(n3);
-        n2.borrow_mut().right = Some(n4.clone());
-        n4.borrow_mut().left = Some(n5);
-        n4.borrow_mut().right = Some(n6);
-
-        let root = Some(n1);
+        let root = build_tree(vec![
+            Some(1),
+            None,
+            Some(2),
+            Some(3),
+            Some(4),
+            None,
+            None,
+            Some(5),
+            Some(6),
+        ]);
 
         assert_eq!(Solution::max_product(root), 90);
     }
