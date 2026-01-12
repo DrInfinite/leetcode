@@ -1,2 +1,3 @@
+mod s1266_minimum_time_visiting_all_points;
 mod s66_plus_one;
 mod s961_n_repeated_element_in_size_2n_array;
