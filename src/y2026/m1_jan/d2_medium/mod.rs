@@ -1,4 +1,5 @@
 mod s1161_maximum_level_sum_of_a_binary_tree;
+mod s1292_maximum_side_length_of_a_square_with_sum_less_than_or_equal_to_threshold;
 mod s1339_maximum_product_of_splitted_binary_tree;
 mod s1390_four_divisors;
 mod s1895_largest_magic_square;
