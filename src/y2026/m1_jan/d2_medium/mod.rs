@@ -3,6 +3,7 @@ mod s1339_maximum_product_of_splitted_binary_tree;
 mod s1390_four_divisors;
 mod s1975_maximum_matrix_sum;
 mod s2943_maximize_area_of_square_hole_in_grid;
+mod s2975_maximum_square_area_by_removing_fences_from_a_field;
 mod s3453_separate_squares_i;
 mod s712_minimum_ascii_delete_sum_for_two_strings;
 mod s865_smallest_subtree_with_all_the_deepest_nodes;
