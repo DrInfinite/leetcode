@@ -1,6 +1,6 @@
 use std::{cell::RefCell, collections::VecDeque, rc::Rc};
 
-use crate::lib::tree_node::TreeNode;
+use crate::utils::tree_node::TreeNode;
 
 pub fn build_tree(values: Vec<Option<i32>>) -> Option<Rc<RefCell<TreeNode>>> {
     if values.is_empty() || values[0].is_none() {

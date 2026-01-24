@@ -16,7 +16,7 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
-use crate::lib::tree_node::TreeNode;
+use crate::utils::tree_node::TreeNode;
 
 struct Solution;
 
@@ -54,7 +54,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::lib::build_tree::build_tree;
+    use crate::utils::build_tree::build_tree;
 
     use super::*;
     use std::cell::RefCell;

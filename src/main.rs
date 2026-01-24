@@ -1,5 +1,5 @@
 mod leetcode_quest;
-mod lib;
+mod utils;
 mod y2026;
 
 fn main() {
