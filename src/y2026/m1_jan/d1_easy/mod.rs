@@ -1,4 +1,5 @@
 mod s1266_minimum_time_visiting_all_points;
 mod s3314_construct_the_minimum_bitwise_array_i;
+mod s3507_minimum_pair_removal_to_sort_array_i;
 mod s66_plus_one;
 mod s961_n_repeated_element_in_size_2n_array;
