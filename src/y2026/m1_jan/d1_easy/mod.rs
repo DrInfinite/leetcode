@@ -1,3 +1,4 @@
+mod s1200_minimum_absolute_difference;
 mod s1266_minimum_time_visiting_all_points;
 mod s1984_minimum_difference_between_highest_and_lowest_of_k_scores;
 mod s3314_construct_the_minimum_bitwise_array_i;
