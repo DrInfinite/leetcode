@@ -46,7 +46,7 @@ impl Solution {
             }
         }
 
-        lo
+        ((lo * 100000.0).round() / 100000.0) as f64
     }
 }
 
@@ -58,15 +58,13 @@ mod test {
     fn test_separate_squares_1() {
         let input = vec![vec![0, 0, 1], vec![2, 2, 1]];
         let result = Solution::separate_squares(input);
-        println!("{}", result);
-        assert_eq!(1.00000, 1.00000);
+        assert_eq!(1.00000, result);
     }
 
     #[test]
     fn test_separate_squares_2() {
         let input = vec![vec![0, 0, 2], vec![1, 1, 1]];
         let result = Solution::separate_squares(input);
-        println!("{}", result);
-        assert_eq!(1.16667, 1.16667);
+        assert_eq!(1.16667, result);
     }
 }
