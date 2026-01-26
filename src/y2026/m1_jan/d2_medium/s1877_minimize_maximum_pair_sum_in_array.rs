@@ -1,8 +1,8 @@
 // LeetCode Problem 1877. Minimize Maximum Pair Sum in Array
 // Difficulty: Medium
 //
-// Time Complexity:
-// Space Complexity:
+// Time Complexity: o(n * log n) - where n * log n is the sorting time complexity
+// Space Complexity: O(log n) - where n is the size of the vector nums
 
 #![allow(dead_code)]
 struct Solution;
