@@ -10,5 +10,6 @@ mod s2975_maximum_square_area_by_removing_fences_from_a_field;
 mod s3047_find_the_largest_area_of_square_inside_two_rectangles;
 mod s3315_construct_the_minimum_bitwise_array_ii;
 mod s3453_separate_squares_i;
+mod s3650_minimum_cost_path_with_edge_reversals;
 mod s712_minimum_ascii_delete_sum_for_two_strings;
 mod s865_smallest_subtree_with_all_the_deepest_nodes;
