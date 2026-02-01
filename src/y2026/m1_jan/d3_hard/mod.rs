@@ -2,4 +2,5 @@ mod s1411_number_of_ways_to_paint_n_3_grid;
 mod s1458_max_dot_product_of_two_subsequences;
 mod s3454_separate_squares_ii;
 mod s3510_minimum_pair_removal_to_sort_array_ii;
+mod s3651_minimum_cost_path_with_teleportations;
 mod s85_maximal_rectange;
