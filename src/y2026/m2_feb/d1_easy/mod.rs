@@ -1,1 +1,2 @@
 mod s3010_divide_an_array_into_subarrays_with_minimum_cost_i;
+mod s3637_trionic_array_i;
