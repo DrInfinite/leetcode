@@ -1,2 +1,3 @@
+mod s1382_balance_a_binary_search_tree;
 mod s1653_minimum_deletions_to_make_string_balanced;
 mod s3634_minimum_removals_to_balance_array;
