@@ -1,2 +1,3 @@
 mod s3013_divide_an_array_into_subarrays_with_minimum_cost_ii;
 mod s3640_trionic_array_ii;
+mod s3721_longest_balanced_subarray_ii;
