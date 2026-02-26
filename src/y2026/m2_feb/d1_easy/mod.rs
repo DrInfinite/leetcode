@@ -2,3 +2,4 @@ mod s110_balanced_binary_tree;
 mod s3010_divide_an_array_into_subarrays_with_minimum_cost_i;
 mod s3379_transformed_array;
 mod s3637_trionic_array_i;
+mod s67_add_binary;
