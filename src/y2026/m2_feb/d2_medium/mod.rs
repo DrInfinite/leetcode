@@ -4,3 +4,4 @@ mod s3634_minimum_removals_to_balance_array;
 mod s3713_longest_balanced_substring_i;
 mod s3714_longest_balanced_substring_ii;
 mod s3719_longest_balanced_subarray_i;
+mod s799_champagne_tower;
