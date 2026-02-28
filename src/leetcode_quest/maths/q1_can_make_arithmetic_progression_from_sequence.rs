@@ -34,12 +34,14 @@ mod tests {
     #[test]
     fn test_can_make_arithmetic_progression_1() {
         let arr = vec![3, 5, 1];
-        assert!(Solution::can_make_arithmetic_progression(arr));
+        let result = Solution::can_make_arithmetic_progression(arr);
+        assert!(result);
     }
 
     #[test]
     fn test_can_make_arithmetic_progression_2() {
         let arr = vec![1, 2, 4];
-        assert!(!Solution::can_make_arithmetic_progression(arr));
+        let result = Solution::can_make_arithmetic_progression(arr);
+        assert!(!result);
     }
 }

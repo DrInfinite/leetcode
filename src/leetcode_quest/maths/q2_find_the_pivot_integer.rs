@@ -22,16 +22,19 @@ mod tests {
 
     #[test]
     fn test_pivot_integer_1() {
-        assert_eq!(Solution::pivot_integer(8), 6);
+        let result = Solution::pivot_integer(8);
+        assert_eq!(result, 6);
     }
 
     #[test]
     fn test_pivot_integer_2() {
-        assert_eq!(Solution::pivot_integer(1), 1);
+        let result = Solution::pivot_integer(1);
+        assert_eq!(result, 1);
     }
 
     #[test]
     fn test_pivot_integer_3() {
-        assert_eq!(Solution::pivot_integer(4), -1);
+        let result = Solution::pivot_integer(4);
+        assert_eq!(result, -1);
     }
 }
