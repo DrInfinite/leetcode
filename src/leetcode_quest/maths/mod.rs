@@ -1,2 +1,3 @@
 mod q1_can_make_arithmetic_progression_from_sequence;
 mod q2_find_the_pivot_integer;
+mod q3_palindrome_number;
