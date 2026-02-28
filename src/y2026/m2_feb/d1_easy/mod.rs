@@ -8,4 +8,4 @@ mod s67_add_binary;
 mod s693_binary_number_with_alternating_bits;
 mod s696_count_binary_substrings;
 mod s762_prime_number_of_sets_bits_in_binary_representation;
-
+mod s868_binary_gap;
