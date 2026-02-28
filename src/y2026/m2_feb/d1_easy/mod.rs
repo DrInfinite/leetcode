@@ -5,3 +5,5 @@ mod s3379_transformed_array;
 mod s3637_trionic_array_i;
 mod s401_binary_watch;
 mod s67_add_binary;
+mod s693_binary_number_with_alternating_bits;
+
