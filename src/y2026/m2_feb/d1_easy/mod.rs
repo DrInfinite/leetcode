@@ -7,3 +7,5 @@ mod s401_binary_watch;
 mod s67_add_binary;
 mod s693_binary_number_with_alternating_bits;
 mod s696_count_binary_substrings;
+mod s762_prime_number_of_sets_bits_in_binary_representation;
+
