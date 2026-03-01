@@ -1,5 +1,6 @@
 mod s1022_sum_of_root_to_leaf_binary_numbers;
 mod s110_balanced_binary_tree;
+mod s1356_sort_integers_by_the_number_of_1_bits;
 mod s190_reverse_bits;
 mod s3010_divide_an_array_into_subarrays_with_minimum_cost_i;
 mod s3379_transformed_array;
