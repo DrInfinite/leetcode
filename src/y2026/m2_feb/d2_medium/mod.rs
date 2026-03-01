@@ -1,4 +1,5 @@
 mod s1382_balance_a_binary_search_tree;
+mod s1461_check_if_a_string_contains_all_binary_codes_of_size_k;
 mod s1653_minimum_deletions_to_make_string_balanced;
 mod s3634_minimum_removals_to_balance_array;
 mod s3713_longest_balanced_substring_i;
