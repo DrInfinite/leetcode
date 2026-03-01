@@ -4,15 +4,33 @@ A personal repository of LeetCode problem solutions written in Rust. This projec
 
 ## Table of Contents
 
-- [Legal Notice & Disclaimers](#legal-notice--disclaimers)
-- [Project Purpose](#project-purpose)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Adding New Solutions](#adding-new-solutions)
-- [Solution Format](#solution-format)
-- [Future Plans](#future-plans)
-- [License](#license)
+<!--toc:start-->
+
+- [LeetCode Solutions in Rust](#leetcode-solutions-in-rust)
+  - [Table of Contents](#table-of-contents)
+  - [Legal Notice & Disclaimers](#legal-notice-disclaimers)
+    - [Intellectual Property](#intellectual-property)
+    - [Important Notes for Users](#important-notes-for-users)
+    - [Attribution](#attribution)
+  - [Project Purpose](#project-purpose)
+  - [Project Structure](#project-structure)
+    - [Naming Convention](#naming-convention)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [How to Use](#how-to-use)
+    - [Running Individual Solutions](#running-individual-solutions)
+    - [Browsing Solutions](#browsing-solutions)
+  - [Adding New Solutions](#adding-new-solutions)
+  - [Solution Format](#solution-format)
+    - [1. **Header Comment**](#1-header-comment)
+    - [2. **Complexity Analysis**](#2-complexity-analysis)
+    - [3. **Clean, Idiomatic Rust Code**](#3-clean-idiomatic-rust-code)
+  - [Future Plans](#future-plans)
+    - [Future Contributions](#future-contributions)
+  - [License](#license)
+  - [Support & Questions](#support-questions)
+  <!--toc:end-->
 
 ## Legal Notice & Disclaimers
 
@@ -125,7 +143,7 @@ Each solution file is a standalone module. To test a specific solution:
 
 Solutions are organized chronologically and by difficulty level, making it easy to:
 
-- Find problems solved on a specific date
+- Filter by solved month
 - Filter by difficulty level
 - Track progress over time
 
