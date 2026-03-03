@@ -1,2 +1,3 @@
 mod s1536_minimum_swaps_to_arrange_a_binary_grid;
+mod s1545_find_kth_bit_in_nth_binary_string;
 mod s1689_partitioning_into_minimum_number_of_deci_binary_numbers;
