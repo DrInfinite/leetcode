@@ -1,1 +1,2 @@
 mod s1582_special_positions_in_a_binary_matrix;
+mod s1758_minimum_changes_to_make_alternating_binary_string;
