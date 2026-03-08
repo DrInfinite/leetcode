@@ -2,3 +2,4 @@ mod s1536_minimum_swaps_to_arrange_a_binary_grid;
 mod s1545_find_kth_bit_in_nth_binary_string;
 mod s1689_partitioning_into_minimum_number_of_deci_binary_numbers;
 mod s1888_minimum_number_of_flips_to_make_the_binary_string_alternating;
+mod s1980_find_unique_binary_string;
