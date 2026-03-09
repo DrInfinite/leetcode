@@ -164,26 +164,21 @@ impl Solution {
             }
         }
 
-        if dp[n - 1] == i64::MAX {
-            -1
-        } else {
-            dp[n - 1]
-        }
+        if dp[n - 1] == i64::MAX { -1 } else { dp[n - 1] }
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::utils::vector_string::vector_string;
-
     use super::*;
+    use crate::utils::strings::Strings;
 
     #[test]
     fn test_minimum_cost_1() {
         let source = "abcd".to_string();
         let target = "acbe".to_string();
-        let original = vector_string(vec!["a", "b", "c", "c", "e", "d"]);
-        let changed = vector_string(vec!["b", "c", "b", "e", "b", "e"]);
+        let original = Strings::vector_string(vec!["a", "b", "c", "c", "e", "d"]);
+        let changed = Strings::vector_string(vec!["b", "c", "b", "e", "b", "e"]);
         let cost = vec![2, 5, 5, 1, 2, 20];
         let result = Solution::minimum_cost(source, target, original, changed, cost);
 
@@ -194,8 +189,8 @@ mod tests {
     fn test_minimum_cost_2() {
         let source = "abcdefgh".to_string();
         let target = "acdeeghh".to_string();
-        let original = vector_string(vec!["bcd", "fgh", "thh"]);
-        let changed = vector_string(vec!["cde", "thh", "ghh"]);
+        let original = Strings::vector_string(vec!["bcd", "fgh", "thh"]);
+        let changed = Strings::vector_string(vec!["cde", "thh", "ghh"]);
         let cost = vec![1, 3, 5];
         let result = Solution::minimum_cost(source, target, original, changed, cost);
 

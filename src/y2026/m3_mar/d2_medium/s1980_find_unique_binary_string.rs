@@ -19,11 +19,11 @@ impl Solution {
 #[cfg(test)]
 mod test {
     use super::*;
-    use crate::utils::vector_string::vector_string;
+    use crate::utils::strings::Strings;
 
     #[test]
     fn test_find_different_binary_string_1() {
-        let input = vector_string(vec!["01", "10"]);
+        let input = Strings::vector_string(vec!["01", "10"]);
         let result = Solution::find_different_binary_string(input);
         assert_eq!(result, "11".to_string());
     }
@@ -31,7 +31,7 @@ mod test {
     // leetcode test case uses 11 as the default
     #[test]
     fn test_find_different_binary_string_2() {
-        let input = vector_string(vec!["00", "01"]);
+        let input = Strings::vector_string(vec!["00", "01"]);
         let result = Solution::find_different_binary_string(input);
         assert_eq!(result, "10".to_string());
     }
@@ -39,7 +39,7 @@ mod test {
     // leetcode test case uses 101 as the default
     #[test]
     fn test_find_different_binary_string_3() {
-        let input = vector_string(vec!["111", "011", "001"]);
+        let input = Strings::vector_string(vec!["111", "011", "001"]);
         let result = Solution::find_different_binary_string(input);
         assert_eq!(result, "000".to_string());
     }

@@ -20,14 +20,14 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::utils::vector_string::vector_string;
+    use crate::utils::strings::Strings;
 
     use super::*;
 
     #[test]
     fn test_read_binary_watch_1() {
         let result = Solution::read_binary_watch(1);
-        let expected = vector_string(vec![
+        let expected = Strings::vector_string(vec![
             "0:01", "0:02", "0:04", "0:08", "0:16", "0:32", "1:00", "2:00", "4:00", "8:00",
         ]);
         assert_eq!(result, expected)
@@ -36,7 +36,7 @@ mod test {
     #[test]
     fn test_read_binary_watch_2() {
         let result = Solution::read_binary_watch(9);
-        let expected = vector_string(vec![]);
+        let expected = Strings::vector_string(vec![]);
         assert_eq!(result, expected)
     }
 }
