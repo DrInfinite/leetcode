@@ -1,1 +1,2 @@
 mod s3130_find_all_possible_stable_binary_arrays_ii;
+mod s3600_maximize_spanning_tree_stability_with_upgrades;
