@@ -6,3 +6,4 @@ mod s1980_find_unique_binary_string;
 mod s3129_find_all_possible_stable_binary_arrays_i;
 mod s3296_minimum_number_of_seconds_to_make_mountain_height_zero;
 mod s1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
+mod s1878_get_biggest_three_rhombus_sums_in_a_grid;
