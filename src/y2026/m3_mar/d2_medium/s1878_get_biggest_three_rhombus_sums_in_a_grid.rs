@@ -2,7 +2,7 @@
 // Difficulty: Medium
 //
 // Time Complexity: O(mn * min(m,n) ^ 2) - where m is the number of rows and n is
-// the number sof cols in the grid. 
+// the number sof cols in the grid.
 // Space Complexity: O(1) - constant space or auxiliary space.
 
 #![allow(dead_code)]
@@ -55,10 +55,10 @@ mod test {
     #[test]
     fn test_get_biggest_three_1() {
         let input = vec![
-            vec![3, 4, 5, 1, 3], 
-            vec![3, 3, 4, 2, 3], 
-            vec![20, 30, 200, 40, 10], 
-            vec![1, 5, 5, 4, 1], 
+            vec![3, 4, 5, 1, 3],
+            vec![3, 3, 4, 2, 3],
+            vec![20, 30, 200, 40, 10],
+            vec![1, 5, 5, 4, 1],
             vec![4, 3, 2, 2, 5],
         ];
         let result = Solution::get_biggest_three(input);
@@ -68,11 +68,7 @@ mod test {
 
     #[test]
     fn test_get_biggest_three_2() {
-        let input = vec![
-            vec![1, 2, 3],
-            vec![4, 5, 6],
-            vec![7, 8, 9],
-        ];
+        let input = vec![vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]];
         let result = Solution::get_biggest_three(input);
         let output = vec![20, 9, 8];
         assert_eq!(result, output);
