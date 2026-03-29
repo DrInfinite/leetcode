@@ -59,7 +59,7 @@ impl Solution {
         ans as i32
     }
 
-    fn update(x: i32, val: i32, count: &mut Vec<i32>, uniq: &mut [i32; 2]) {
+    fn update(x: i32, val: i32, count: &mut [i32], uniq: &mut [i32; 2]) {
         let xu = x as usize;
         count[xu] += val;
         if count[xu] == 0 && val < 0 {

@@ -35,7 +35,7 @@ impl Solution {
             let mut hash = vec![0; 26];
 
             for idx2 in idx..s.len() {
-                hash[(s[idx2] - 'a' as u8) as usize] += 1;
+                hash[(s[idx2] - b'a') as usize] += 1;
 
                 if is_balanced(&hash) {
                     result = result.max(idx2 - idx + 1);

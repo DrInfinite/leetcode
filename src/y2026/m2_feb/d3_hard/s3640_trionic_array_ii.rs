@@ -44,9 +44,9 @@ impl Solution {
 
             // Core trionic: [p-1, p, ..., q, q+1]
             let mut sum = nums[p - 1] as i64 + nums[p] as i64;
-            for k in (p + 1)..=q + 1 {
+            ((p + 1)..=q + 1).for_each(|k| {
                 sum += nums[k] as i64;
-            }
+            });
 
             // Extend right: find max increasing suffix starting at q+2
             let mut right_max = 0i64;

@@ -13,7 +13,7 @@ impl Solution {
         let mut s = String::with_capacity(n as usize);
         Self::back_tracking(n as usize, &mut k, &mut s);
 
-        return s;
+        s
     }
 
     fn back_tracking(n: usize, k: &mut i32, s: &mut String) {

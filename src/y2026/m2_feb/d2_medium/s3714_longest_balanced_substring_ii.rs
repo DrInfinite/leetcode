@@ -24,22 +24,22 @@ impl Solution {
 
                 let mut lo = i32::MAX;
 
-                for d in 0..3 {
+                (0..3).for_each(|d| {
                     if (k & (1 << d)) == 0 {
                         lo = lo.min(arr[d]);
                     }
-                }
+                });
 
-                for d in 0..3 {
+                (0..3).for_each(|d| {
                     if (k & (1 << d)) == 0 {
                         arr[d] -= lo;
                     }
-                }
+                });
 
                 if let Some(&j) = hash.get(&arr) {
                     ans = ans.max(i + 1 - j);
                 } else {
-                    hash.insert(arr.clone(), i + 1);
+                    hash.insert(arr, i + 1);
                 }
             }
 

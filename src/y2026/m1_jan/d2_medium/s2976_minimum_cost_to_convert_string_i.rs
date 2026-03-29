@@ -24,9 +24,7 @@ impl Solution {
             path[a][b] = path[a][b].min(cost[i] as i64);
         }
 
-        for i in 0..26 {
-            path[i][i] = 0
-        }
+        (0..26).for_each(|i| path[i][i] = 0);
         for i in 0..26 {
             for a in 0..26 {
                 for b in 0..26 {

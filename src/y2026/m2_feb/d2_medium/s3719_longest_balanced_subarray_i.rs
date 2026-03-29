@@ -21,7 +21,7 @@ impl Solution {
             let mut distinct_even = 0;
             let mut distinct_odd = 0;
 
-            for j in i..n {
+            (i..n).for_each(|j| {
                 let x = nums[j];
 
                 if x % 2 == 0 {
@@ -45,7 +45,7 @@ impl Solution {
                 if distinct_even == distinct_odd {
                     ans = ans.max((j - i + 1) as i32);
                 }
-            }
+            });
         }
 
         ans

@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::{cell::RefCell, collections::VecDeque, rc::Rc};
 
 use crate::utils::tree_node::TreeNode;

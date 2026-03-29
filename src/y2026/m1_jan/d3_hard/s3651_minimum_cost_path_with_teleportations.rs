@@ -49,7 +49,7 @@ impl Solution {
         *mat.last().unwrap().last().unwrap()
     }
 
-    fn downright_propagation(grid: &Vec<Vec<i32>>, mat: &mut [Vec<i32>]) -> i32 {
+    fn downright_propagation(grid: &[Vec<i32>], mat: &mut [Vec<i32>]) -> i32 {
         let mut grid_max = 0;
 
         (0..grid.len()).for_each(|i| {
