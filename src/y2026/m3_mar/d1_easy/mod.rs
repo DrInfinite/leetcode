@@ -3,5 +3,5 @@ mod s1582_special_positions_in_a_binary_matrix;
 mod s1758_minimum_changes_to_make_alternating_binary_string;
 mod s1784_check_if_binary_string_has_at_most_one_segment_of_ones;
 mod s1886_determine_whether_matrix_can_be_obtained_by_rotation;
+mod s2964_matrix_similarity_after_cyclic_shifts;
 mod s3643_flip_square_submatrix_vertically;
-
