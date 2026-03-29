@@ -1,4 +1,5 @@
 mod s1622_fancy_sequence;
+mod s2573_find_the_string_with_lcp;
 mod s3130_find_all_possible_stable_binary_arrays_ii;
 mod s3548_equal_sum_rid_partition_ii;
 mod s3600_maximize_spanning_tree_stability_with_upgrades;
