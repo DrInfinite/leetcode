@@ -1,1 +1,0 @@
-mod s3418_maximum_amount_of_money_robot_can_earn;
