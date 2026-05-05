@@ -31,6 +31,7 @@ class Solution {
     return result;
   }
 };
+
 int main() {
   Solution sol;
 
